@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 80px;
+  background: #202020;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 100px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  text-shadow: 1px 1px #090909;
+  transition: 100ms;
+}
+.nav-link:hover {
+  color: #b3b3b3;
+  transition: 100ms;
+}
